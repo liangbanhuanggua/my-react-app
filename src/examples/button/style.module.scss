@@ -1,0 +1,11 @@
+.button-demo-wrapper {
+  overflow: hidden;
+
+  > div:first-child {
+    margin-top: 10px;
+  }
+
+  > div {
+    margin-bottom: 20px;
+  }
+}

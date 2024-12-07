@@ -1,0 +1,30 @@
+.button-wrapper {
+  padding: 5px 10px;
+  cursor: pointer;
+  outline: none;
+  border-radius: 4px;
+  background: orange;
+  border: 1px solid orange;
+  color: white;
+
+  &:hover {
+    background: orangered;
+    border-color: orangered;
+  }
+
+  &.disabled {
+    cursor: not-allowed;
+    background: gray;
+    border-color: gray;
+  }
+
+  .spinning {
+    margin-right: 5px;
+
+    :global {
+      .ant-spin-dot i {
+        background-color: white;
+      }
+    }
+  }
+}
